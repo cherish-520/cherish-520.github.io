@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Interworld - Designing Concepts HTML Template | About Us</title>
+<title>Interworld - Designing Concepts HTML Template | Projects</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -121,7 +121,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="current"><a href="about.html">About</a></li>
+                                    <li><a href="about.html">About</a></li>
                                     <li class="dropdown"><a href="#">Services</a>
                                     	<ul>
                                             <li><a href="services.html">Services</a></li>
@@ -133,7 +133,7 @@
                                             <li><a href="services-single.html">Industrial Design</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Gallery</a>
+                                    <li class="current dropdown"><a href="#">Gallery</a>
                                     	<ul>
                                             <li><a href="project.html">Gallery</a></li>
                                             <li><a href="project-single.html">Gallery Details</a></li>
@@ -208,7 +208,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="current"><a href="about.html">About</a></li>
+                                    <li><a href="about.html">About</a></li>
                                     <li class="dropdown"><a href="#">Services</a>
                                     	<ul>
                                             <li><a href="services.html">Services</a></li>
@@ -220,7 +220,7 @@
                                             <li><a href="services-single.html">Industrial Design</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Gallery</a>
+                                    <li class="current dropdown"><a href="#">Gallery</a>
                                     	<ul>
                                             <li><a href="project.html">Gallery</a></li>
                                             <li><a href="project-single.html">Gallery Details</a></li>
@@ -260,505 +260,210 @@
     <!--Page Title-->
     <section class="page-title" style="background-image:url(images/background/5.jpg)">
     	<div class="auto-container">
-        	<h1>About us</h1>
+        	<h1>Projects</h1>
         </div>
         <div class="breadcrumb-outer">
         	<div class="auto-container">
                 <ul class="page-breadcrumb">
                     <li><a href="index.html">Home</a></li>
-                    <li>About Us</li>
+                    <li>Projects</li>
                 </ul>
             </div>
         </div>
     </section>
     <!--End Page Title-->
     
-    <!--About Section-->
-    <section class="about-section">
+    <!-- Projects Section -->
+    <section class="projects-section project-page-section">
+    	
+        <!--Gallery Masonry-->
+        <div class="sortable-masonry">
+            <div class="auto-container">
+                <!--Sec Title-->
+                <div class="sec-title clearfix">
+                    <div class="pull-left">
+                        <div class="title">Our Work</div>
+                        <h2>Latest Projects</h2>
+                    </div>
+                    <div class="pull-right">
+                        <!--Filter-->
+                        <div class="filters clearfix">
+                            <ul class="filter-tabs filter-btns">
+                                <li class="active filter" data-role="button" data-filter=".all">View All</li>
+                                <li class="filter" data-role="button" data-filter=".corporate">Corporate</li>
+                                <li class="filter" data-role="button" data-filter=".industrial">Industrial</li>
+                                <li class="filter" data-role="button" data-filter=".residential">Residential</li>
+                                <li class="filter" data-role="button" data-filter=".restaurant">Restaurant</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            
+            	<div class="items-container row clearfix masonry">
+                    
+                    <!--Gallery Item-->
+                    <div class="gallery-item masonry-item all col-md-4 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/gallery/1.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                    	<a href="images/gallery/1.jpg" class="popup-btn lightbox-image" data-fancybox="images" data-caption=""><span class="flaticon-photo-camera"></span></a>
+                                    	<div class="lower-content">
+                                    		<h2><a href="project-single.html">Modern Living Room</a></h2>
+                                        	<div class="category">Corporate, Residential, Restaurant</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Gallery Item-->
+                    <div class="gallery-item masonry-item restaurant all col-md-4 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/gallery/2.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                    	<a href="images/gallery/2.jpg" class="popup-btn lightbox-image" data-fancybox="images" data-caption=""><span class="flaticon-photo-camera"></span></a>
+                                    	<div class="lower-content">
+                                    		<h2><a href="project-single.html">Modern Living Room</a></h2>
+                                        	<div class="category">Corporate, Residential, Restaurant</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Gallery Item-->
+                    <div class="gallery-item masonry-item residential all col-md-4 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/gallery/3.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                    	<a href="images/gallery/3.jpg" class="popup-btn lightbox-image" data-fancybox="images" data-caption=""><span class="flaticon-photo-camera"></span></a>
+                                    	<div class="lower-content">
+                                    		<h2><a href="project-single.html">Modern Living Room</a></h2>
+                                        	<div class="category">Corporate, Residential, Restaurant</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Gallery Item-->
+                    <div class="gallery-item masonry-item residential industrial restaurant all col-md-4 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/gallery/4.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                    	<a href="images/gallery/4.jpg" class="popup-btn lightbox-image" data-fancybox="images" data-caption=""><span class="flaticon-photo-camera"></span></a>
+                                    	<div class="lower-content">
+                                    		<h2><a href="project-single.html">Modern Living Room</a></h2>
+                                        	<div class="category">Corporate, Residential, Restaurant</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Gallery Item-->
+                    <div class="gallery-item masonry-item corporate all col-md-8 col-sm-12 col-xs-12">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/gallery/5.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                    	<a href="images/gallery/5.jpg" class="popup-btn lightbox-image" data-fancybox="images" data-caption=""><span class="flaticon-photo-camera"></span></a>
+                                    	<div class="lower-content">
+                                    		<h2><a href="project-single.html">Modern Living Room</a></h2>
+                                        	<div class="category">Corporate, Residential, Restaurant</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Gallery Item-->
+                    <div class="gallery-item masonry-item corporate industrial all col-md-4 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/gallery/6.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                    	<a href="images/gallery/6.jpg" class="popup-btn lightbox-image" data-fancybox="images" data-caption=""><span class="flaticon-photo-camera"></span></a>
+                                    	<div class="lower-content">
+                                    		<h2><a href="project-single.html">Modern Living Room</a></h2>
+                                        	<div class="category">Corporate, Residential, Restaurant</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Gallery Item-->
+                    <div class="gallery-item masonry-item corporate all col-md-4 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/gallery/7.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                    	<a href="images/gallery/7.jpg" class="popup-btn lightbox-image" data-fancybox="images" data-caption=""><span class="flaticon-photo-camera"></span></a>
+                                    	<div class="lower-content">
+                                    		<h2><a href="project-single.html">Modern Living Room</a></h2>
+                                        	<div class="category">Corporate, Residential, Restaurant</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="btn-box text-center">
+                	<a href="contact.html" class="theme-btn btn-style-five">Load More</a>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+    <!--End Poject Section-->
+    
+    <!--Call To Action Section-->
+    <section class="call-to-action-section style-two">
     	<div class="auto-container">
         	<div class="row clearfix">
             	
                 <!--Content Column-->
-                <div class="content-column col-md-6 col-sm-12 col-xs-12">
+                <div class="content-column col-md-8 col-sm-12 col-xs-12">
+                	<div class="text">Being the largest in-home decorationg service in newyork city, </div>
+                	<h2>You can work with us from anywhere!</h2>
+                </div>
+                
+                <!--Btn Column-->
+                <div class="btn-column col-md-4 col-sm-12 col-xs-12">
                 	<div class="inner-column">
-                    	<div class="sec-title">
-                    		<div class="title">About Us</div>
-                        	<h2>We Are The Leader In <br> The Interiores</h2>
-                        </div>
-                        <div class="text">We are passionate, knowing that people live, work, play and inhabit the spaces and places we imagine and envision for our clients. To those wanting to make an impact with design, HKS is the architect where focused people consistently deliver the extraordinary.</div>
-                        <div class="email">Request Quote: <span class="theme_color">freequote@gmail.com</span></div>
-                        <a href="about.html" class="theme-btn btn-style-three">Read More</a>
-                    </div>
-                </div>
-                
-                <!--Image Column-->
-                <div class="image-column col-md-6 col-sm-12 col-xs-12">
-                	<div class="inner-column " data-wow-delay="0ms" data-wow-duration="1500ms">
-                    	<div class="image">
-                        	<img src="images/resource/about.jpg" alt="" />
-                            <div class="overlay-box">
-                            	<div class="year-box"><span class="number">45</span>Years <br> Experience <br> Working</div>
-                            </div>
-                        </div>
+                		<a href="contact.html" class="theme-btn btn-style-four">Contact Us</a>
                     </div>
                 </div>
                 
             </div>
         </div>
     </section>
-    <!--End About Section-->
-    
-    <!--Fluid Section One-->
-    <section class="fluid-section-one">
-    	<div class="outer-container clearfix">
-        	
-            <!--Image Column-->
-            <div class="image-column" style="background-image:url(images/resource/image-1.jpg);">
-            	<figure class="image-box"><img src="images/resource/image-1.jpg" alt=""></figure>
-            </div>
-            
-        	<!--Content Column-->
-            <div class="content-column">
-            	<div class="inner-column">
-                	<div class="sec-title">
-						<div class="title">Why Us</div>
-                    	<h2>Why We Expert in <br> The Market</h2>
-                    </div>
-                    <div class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘content here, content here’, making it look like readable English. Many editors now use Lorem Ipsum as their.We provide clients with the highest possible level of service anywhere in the world.</div>
-                    <div class="row clearfix">
-                    	
-                        <div class="column col-md-6 col-sm-6 col-xs-12">
-                        	<ul class="work-list">
-                            	<li>
-                                	<span class="icon flaticon-decorating"></span>
-                                    Architecture
-                                </li>
-                            </ul>
-                        </div>
-                        
-                        <div class="column col-md-6 col-sm-6 col-xs-12">
-                        	<ul class="work-list">
-                            	<li>
-                                	<span class="icon flaticon-design"></span>
-                                    Greate Planning
-                                </li>
-                            </ul>
-                        </div>
-                        
-                        <div class="column col-md-6 col-sm-6 col-xs-12">
-                        	<ul class="work-list">
-                            	<li>
-                                	<span class="icon flaticon-house-plans"></span>
-                                    Interior Project
-                                </li>
-                            </ul>
-                        </div>
-                        
-                        <div class="column col-md-6 col-sm-6 col-xs-12">
-                        	<ul class="work-list">
-                            	<li>
-                                	<span class="icon flaticon-finance"></span>
-                                    Fair Personal Estimate
-                                </li>
-                            </ul>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-    <!--End Fluid Section One-->
-    
-    <!--Team Section-->
-    <section class="team-section">
-    	<div class="auto-container">
-        	<div class="sec-title">
-            	<div class="title">Our Team</div>
-                <h2>Expert Person</h2>
-            </div>
-            
-            <div class="row clearfix">
-            	
-                <!--Team Block-->
-                <div class="team-block col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box " data-wow-delay="0ms" data-wow-duration="1500ms">
-                    	<div class="image-outer">
-                            <div class="image">
-                                <img src="images/resource/team-1.jpg" alt="" />
-                                <div class="overlay-box">
-                                    <div class="content">
-                                        <ul class="social-icon-two">
-                                            <li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                                            <li><a href="#"><span class="la la-twitter"></span></a></li>
-                                            <li><a href="#"><span class="la la-google-plus"></span></a></li>
-                                            <li><a href="#"><span class="la la-pinterest"></span></a></li>
-                                            <li><a href="#"><span class="la la-dribbble"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-box">
-                        	<h3><a href="#">Barbara Savage</a></h3>
-                            <div class="designation">Senior Associate</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Team Block-->
-                <div class="team-block col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box " data-wow-delay="300ms" data-wow-duration="1500ms">
-                    	<div class="image-outer">
-                            <div class="image">
-                                <img src="images/resource/team-2.jpg" alt="" />
-                                <div class="overlay-box">
-                                    <div class="content">
-                                        <ul class="social-icon-two">
-                                            <li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                                            <li><a href="#"><span class="la la-twitter"></span></a></li>
-                                            <li><a href="#"><span class="la la-google-plus"></span></a></li>
-                                            <li><a href="#"><span class="la la-pinterest"></span></a></li>
-                                            <li><a href="#"><span class="la la-dribbble"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-box">
-                        	<h3><a href="#">Brad Robichaux</a></h3>
-                            <div class="designation">Associate, Senior Interior Designer</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Team Block-->
-                <div class="team-block col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box " data-wow-delay="600ms" data-wow-duration="1500ms">
-                    	<div class="image-outer">
-                            <div class="image">
-                                <img src="images/resource/team-3.jpg" alt="" />
-                                <div class="overlay-box">
-                                    <div class="content">
-                                        <ul class="social-icon-two">
-                                            <li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                                            <li><a href="#"><span class="la la-twitter"></span></a></li>
-                                            <li><a href="#"><span class="la la-google-plus"></span></a></li>
-                                            <li><a href="#"><span class="la la-pinterest"></span></a></li>
-                                            <li><a href="#"><span class="la la-dribbble"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-box">
-                        	<h3><a href="#">Christien Jung-Essex</a></h3>
-                            <div class="designation">Principal, Interior Design</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Team Block-->
-                <div class="team-block col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box " data-wow-delay="900ms" data-wow-duration="1500ms">
-                    	<div class="image-outer">
-                            <div class="image">
-                                <img src="images/resource/team-4.jpg" alt="" />
-                                <div class="overlay-box">
-                                    <div class="content">
-                                        <ul class="social-icon-two">
-                                            <li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                                            <li><a href="#"><span class="la la-twitter"></span></a></li>
-                                            <li><a href="#"><span class="la la-google-plus"></span></a></li>
-                                            <li><a href="#"><span class="la la-pinterest"></span></a></li>
-                                            <li><a href="#"><span class="la la-dribbble"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-box">
-                        	<h3><a href="#">Christopher Wilson</a></h3>
-                            <div class="designation">Senior Principal, Architecture</div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            
-        </div>
-    </section>
-    <!--End Team Section-->
-    
-    <!--Work Section-->
-    <section class="work-section" style="background-image:url(images/background/2.jpg)">
-    	<div class="auto-container">
-        	<!--Sec Title-->
-            <div class="sec-title light">
-            	<div class="title">How We Work</div>
-                <h2>Proven Process For Result</h2>
-            </div>
-            <div class="row clearfix">
-            	
-                <!--Work Block-->
-                <div class="work-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="icon-box">
-                        	<span class="icon flaticon-team"></span>
-                        </div>
-                        <div class="step">STeP 01</div>
-                        <h2>Meeting</h2>
-                        <div class="overlay-box">
-                        	<div class="overlay-inner">
-                            	<div class="overlay-content">
-                                	<div class="overlay-icon flaticon-team"></div>
-                                    <div class="overlay-step">STeP 01</div>
-                                    <h3><a href="services-single.html">Meeting</a></h3>
-                                    <div class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </div>
-                                    <a href="services-single.html" class="read-more">Read More <span class="arrow la la-angle-double-right"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Work Block-->
-                <div class="work-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="icon-box">
-                        	<span class="icon flaticon-sketch"></span>
-                        </div>
-                        <div class="step">STeP 02</div>
-                        <h2>Sketching ideas</h2>
-                        <div class="overlay-box">
-                        	<div class="overlay-inner">
-                            	<div class="overlay-content">
-                                	<div class="overlay-icon flaticon-sketch"></div>
-                                    <div class="overlay-step">STeP 02</div>
-                                    <h3><a href="services-single.html">Sketching ideas</a></h3>
-                                    <div class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </div>
-                                    <a href="services-single.html" class="read-more">Read More <span class="arrow la la-angle-double-right"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Work Block-->
-                <div class="work-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="icon-box">
-                        	<span class="icon flaticon-map"></span>
-                        </div>
-                        <div class="step">STeP 03</div>
-                        <h2>Plan & Design</h2>
-                        <div class="overlay-box">
-                        	<div class="overlay-inner">
-                            	<div class="overlay-content">
-                                	<div class="overlay-icon flaticon-map"></div>
-                                    <div class="overlay-step">STeP 03</div>
-                                    <h3><a href="services-single.html">Plan & Design</a></h3>
-                                    <div class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </div>
-                                    <a href="services-single.html" class="read-more">Read More <span class="arrow la la-angle-double-right"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Work Block-->
-                <div class="work-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="icon-box">
-                        	<span class="icon flaticon-light-bulb-on"></span>
-                        </div>
-                        <div class="step">STeP 04</div>
-                        <h2>Execute</h2>
-                        <div class="overlay-box">
-                        	<div class="overlay-inner">
-                            	<div class="overlay-content">
-                                	<div class="overlay-icon flaticon-light-bulb-on"></div>
-                                    <div class="overlay-step">STeP 04</div>
-                                    <h3><a href="services-single.html">Execute</a></h3>
-                                    <div class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </div>
-                                    <a href="services-single.html" class="read-more">Read More <span class="arrow la la-angle-double-right"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <!--End Work Section-->
-    
-    <!--Appointment Section-->
-    <section class="appointment-section">
-    	<div class="auto-container">
-        	<div class="sec-title">
-            	<div class="title">Do You Want to Work</div>
-                <h2>Commercial Appoinment</h2>
-            </div>
-            <div class="row clearfix">
-            
-            	<!--Form Column-->
-            	<div class="form-column col-md-8 col-sm-12 col-xs-12">
-                	<div class="inner-column">
-                    	
-                        <!-- Default Form -->
-                        <div class="default-form">
-                                
-                            <!--Contact Form-->
-                            <form method="post" action="contact.html">
-                                <div class="row clearfix">
-                                
-                                    <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        
-                                        <div class="form-group">
-                                            <input type="text" name="username" placeholder="Name" required>
-                                        </div>
-                                        
-                                        <!--Form Group-->
-                                        <div class="form-group">
-                                            <select class="custom-select-box">
-                                                <option>Service Catogaries</option>
-                                                <option>Category One</option>
-                                                <option>Category Two</option>
-                                                <option>Category Three</option>
-                                                <option>Category Four</option>
-                                            </select>
-                                        </div>
-                                        
-                                        <div class="form-group">
-                                            <input type="text" class="datepicker" name="text" placeholder="Schedule Date" required>
-                                            <span class="icon flaticon-calendar-1"></span>
-                                        </div>
-                                        
-                                    </div>
-                                    
-                                    <div class="column col-md-6 col-sm-6 col-xs-12">
-                                        
-                                        <div class="form-group">
-                                            <input type="email" name="email" placeholder="Email" required>
-                                        </div>
-                                        
-                                        <div class="form-group">
-                                            <input type="text" name="phone" placeholder="Phone" required>
-                                        </div>
-                                        
-                                        <div class="form-group">
-                                            <input class="timepicker" type="text" name="schedule" placeholder="Schedule Time">
-                                            <span class="icon flaticon-clock-1"></span>
-                                        </div>
-                                        
-                                    </div>
-                                
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-                                        <button class="theme-btn appointment-btn" type="submit" name="submit-form">Fix An Appoinment</button>
-                                        <div class="btn-detail"> Our customercare excutive will contact you within <span class="theme_color">24 hours</span> now onwards.</div>
-                                    </div>
-                                    
-                                </div>
-                            </form>
-                                
-                        </div>
-                        <!--End Default Form -->
-                        
-                    </div>
-                </div>
-                
-                <!--Form Column-->
-            	<div class="schedule-column col-md-4 col-sm-12 col-xs-12">
-                	<div class="inner-outer">
-                        <div class="inner-column">
-                            <h2>Business Hours:</h2>
-                            <ul class="time-list">
-                                <li>Monday - Friday 9.00 - 18.00</li>
-                                <li>Saturday 9.00 - 16pm</li>
-                                <li><strong>Sunday Closed</strong></li>
-                                <li class="closed">* Every 3rd Staurday and all govt holidays are closed.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <!--End Appointment Section-->
-    
-    <!--Counter Section / Style Two-->
-	<section class="counter-section style-two">
-		<div class="auto-container">
-			<div class="inner-container">
-				
-                <div class="fact-counter">
-                    <div class="row clearfix">
-                    
-                        <!--Column-->
-                        <div class="column counter-column col-md-3 col-sm-6 col-xs-12">
-                            <div class="inner " data-wow-delay="0ms" data-wow-duration="1500ms">
-                            	<div class="icon-box">
-                                	<span class="icon flaticon-file-2"></span>
-                                </div>
-                            	<div class="count-outer count-box">
-                                    <span class="count-text" data-speed="3000" data-stop="2180">0</span>
-                                </div>
-                                <h4 class="counter-title">Projects</h4>
-                            </div>
-                        </div>
-                
-                        <!--Column-->
-                        <div class="column counter-column col-md-3 col-sm-6 col-xs-12">
-                            <div class="inner " data-wow-delay="300ms" data-wow-duration="1500ms">
-                            	<div class="icon-box">
-                                	<span class="icon flaticon-users"></span>
-                                </div>
-                            	<div class="count-outer count-box">
-                                    <span class="count-text" data-speed="1000" data-stop="750">0</span>+
-                                </div>
-                                <h4 class="counter-title">Clients</h4>
-                            </div>
-                        </div>
-                
-                        <!--Column-->
-                        <div class="column counter-column col-md-3 col-sm-6 col-xs-12">
-                            <div class="inner " data-wow-delay="600ms" data-wow-duration="1500ms">
-                            	<div class="icon-box">
-                                	<span class="icon flaticon-engineer"></span>
-                                </div>
-                            	<div class="count-outer count-box">
-                                    <span class="count-text" data-speed="3000" data-stop="2560">0</span>+
-                                </div>
-                                <h4 class="counter-title">Workers</h4>
-                            </div>
-                        </div>
-                
-                        <!--Column-->
-                        <div class="column counter-column col-md-3 col-sm-6 col-xs-12">
-                            <div class="inner " data-wow-delay="900ms" data-wow-duration="1500ms">
-                            	<div class="icon-box">
-                                	<span class="icon flaticon-medal"></span>
-                                </div>
-                                <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="5000" data-stop="150">0</span>
-                                </div>
-                                <h4 class="counter-title">Awards</h4>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                
-			</div>
-		</div>
-	</section>
-	<!--End Counter Section-->
+    <!--End Call To Action Section-->
     
     <!--Main Footer-->
-    <footer class="main-footer style-two">
+    <footer class="main-footer">
     
 		<div class="auto-container">
         
@@ -903,6 +608,7 @@
 <script src="js/jquery-ui.js"></script>
 <script src="js/owl.js"></script>
 <script src="js/wow.js"></script>
+<script src="js/isotope.js"></script>
 <script src="js/appear.js"></script>
 <script src="js/jquery.timepicker.min.js"></script>
 <script src="js/script.js"></script>
